@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.21.3",
+    "@nuxt/image-edge": "^1.0.0-27990059.c3f31ce",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.0.2",
+    "@nuxtjs/tailwindcss": "^6.6.4",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "nuxt": "^3.3.1",
+    "prettier": "^2.8.6"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^0.3.1",
+    "@prisma/client": "^4.11.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "joi": "^17.9.1",
+    "prisma": "^4.11.0"
+  }
+}
